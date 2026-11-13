@@ -1,6 +1,6 @@
 # Wireframe et maquette
 
-Le design général de l'application : un wireframe pour la structure, puis une maquette pour le rendu final. Chacun existe en version bureau et en version mobile.
+Le design général de l'application : un wireframe pour la structure, puis une maquette pour le rendu final. Chacun existe en version bureau et en version mobile. (créé avec Figma)
 
 ## Wireframe
 
