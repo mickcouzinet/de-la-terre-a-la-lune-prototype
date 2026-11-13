@@ -1,0 +1,12 @@
+{
+  "name": "api-bouchon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API bouchon du prototype De la Terre à la Lune en direct",
+  "scripts": {
+    "start": "json-server db.json --port 3000 --static ./public --read-only"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}

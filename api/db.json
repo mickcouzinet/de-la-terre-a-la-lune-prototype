@@ -1,0 +1,139 @@
+{
+  "iss": {
+    "latitude": 46.2,
+    "longitude": 2.1,
+    "altitude": 418.6,
+    "vitesse": 27580,
+    "auSoleil": true,
+    "zoneVisibleKm": 4500,
+    "releve": "2026-11-12T10:42:00Z"
+  },
+  "orbite": [
+    { "id": 1, "latitude": -48.28, "longitude": -159.68 },
+    { "id": 2, "latitude": -47.06, "longitude": -103.01 },
+    { "id": 3, "latitude": -23.19, "longitude": -67.07 },
+    { "id": 4, "latitude": 6.82, "longitude": -44.33 },
+    { "id": 5, "latitude": 35.36, "longitude": -18.1 },
+    { "id": 6, "latitude": 51.5, "longitude": 29.47 },
+    { "id": 7, "latitude": 39.8, "longitude": 81.46 },
+    { "id": 8, "latitude": 12.38, "longitude": 110.21 },
+    { "id": 9, "latitude": -17.83, "longitude": 132.46 },
+    { "id": 10, "latitude": -43.74, "longitude": 164.43 }
+  ],
+  "apod": [
+    {
+      "id": 1,
+      "date": "2026-11-12",
+      "titre": "Un fin croissant de Lune au-dessus de la mer",
+      "credit": "Illustration du prototype",
+      "explication": "Image de test. Dans la vraie application, ce bloc affiche la photo astronomique du jour publiée par la NASA, avec son titre, son auteur et son explication.",
+      "image": "/img/croissant.svg"
+    },
+    {
+      "id": 2,
+      "date": "2026-11-11",
+      "titre": "Pleine Lune sur les collines",
+      "credit": "Illustration du prototype",
+      "explication": "Deuxième image de test, pour vérifier le choix d'une autre date.",
+      "image": "/img/pleine-lune.svg"
+    },
+    {
+      "id": 3,
+      "date": "2025-12-25",
+      "titre": "La Terre vue depuis l'orbite de la Lune",
+      "credit": "Illustration du prototype",
+      "explication": "Troisième image de test, à une date plus ancienne.",
+      "image": "/img/terre.svg"
+    }
+  ],
+  "asteroides": [
+    { "id": 1, "nom": "2026 VB3", "diametreMin": 18, "diametreMax": 41, "vitesse": 41230, "distanceKm": 1820000, "distanceLune": 4.73, "dangereux": false },
+    { "id": 2, "nom": "2026 UZ1", "diametreMin": 6, "diametreMax": 13, "vitesse": 29880, "distanceKm": 3150000, "distanceLune": 8.19, "dangereux": false },
+    { "id": 3, "nom": "2026 TW8", "diametreMin": 120, "diametreMax": 269, "vitesse": 51230, "distanceKm": 4728120, "distanceLune": 12.3, "dangereux": true },
+    { "id": 4, "nom": "2026 SK4", "diametreMin": 35, "diametreMax": 78, "vitesse": 36410, "distanceKm": 9310000, "distanceLune": 24.22, "dangereux": false },
+    { "id": 5, "nom": "2026 RD2", "diametreMin": 210, "diametreMax": 470, "vitesse": 57790, "distanceKm": 12600000, "distanceLune": 32.78, "dangereux": false },
+    { "id": 6, "nom": "2026 QM7", "diametreMin": 790, "diametreMax": 1770, "vitesse": 88910, "distanceKm": 18650000, "distanceLune": 48.52, "dangereux": true }
+  ],
+  "comparaisons": [
+    {
+      "id": 1,
+      "sujet": "Le pas de tir",
+      "roman": "Stone's Hill, près de Tampa, en Floride. Le Gun-Club cherche un site entre 0° et 28° de latitude pour que la Lune passe à la verticale du canon.",
+      "realite": "Apollo et Artemis décollent du Kennedy Space Center, en Floride aussi, à environ 195 km de Tampa.",
+      "verdict": "vu-juste",
+      "source": "https://en.wikipedia.org/wiki/From_the_Earth_to_the_Moon"
+    },
+    {
+      "id": 2,
+      "sujet": "La date",
+      "roman": "Le 1er décembre, à 22 h 46 min 40 s précises.",
+      "realite": "Apollo 8, le premier équipage à faire le tour de la Lune, décolle le 21 décembre 1968.",
+      "verdict": "clin-doeil",
+      "source": "https://www.nasa.gov/mission_pages/apollo/missions/apollo8.html"
+    },
+    {
+      "id": 3,
+      "sujet": "L'équipage",
+      "roman": "Trois voyageurs : Barbicane, le capitaine Nicholl et le Français Michel Ardan.",
+      "realite": "Trois astronautes pour Apollo 8 et Apollo 11, quatre pour Artemis II en avril 2026.",
+      "verdict": "vu-juste",
+      "source": "https://en.wikipedia.org/wiki/From_the_Earth_to_the_Moon"
+    },
+    {
+      "id": 4,
+      "sujet": "Le lanceur",
+      "roman": "La Columbiad, un canon de 900 pieds (environ 274 m) creusé dans le sol.",
+      "realite": "Une fusée à plusieurs étages qui accélère pendant plusieurs minutes. Saturn V mesurait 110 m.",
+      "verdict": "rate",
+      "source": "https://www.gutenberg.org/files/799/799-h/799-h.htm"
+    },
+    {
+      "id": 5,
+      "sujet": "La vitesse de départ",
+      "roman": "12 000 yards par seconde, soit environ 10,97 km/s.",
+      "realite": "Il faut 11,2 km/s pour échapper à l'attraction de la Terre. Verne était très proche.",
+      "verdict": "presque",
+      "source": "https://www.gutenberg.org/files/799/799-h/799-h.htm"
+    },
+    {
+      "id": 6,
+      "sujet": "Le choc du départ",
+      "roman": "Une couche d'eau sous le plancher du boulet doit amortir le coup de canon.",
+      "realite": "Passer de 0 à 11 km/s sur 274 m, c'est environ 22 400 g. Le record supporté par un humain est d'environ 46 g (John Stapp, 1954).",
+      "verdict": "rate",
+      "source": "https://www.gutenberg.org/files/799/799-h/799-h.htm"
+    },
+    {
+      "id": 7,
+      "sujet": "La durée du voyage",
+      "roman": "97 h 13 min 20 s jusqu'à la Lune.",
+      "realite": "Apollo 11 s'est placé en orbite lunaire après environ 76 h de vol, Apollo 8 après environ 69 h.",
+      "verdict": "presque",
+      "source": "https://www.nasa.gov/wp-content/uploads/static/history/SP-4029/Apollo_11g_Lunar_Orbit_Phase.htm"
+    },
+    {
+      "id": 8,
+      "sujet": "Le nom",
+      "roman": "Columbiad, le nom du canon géant.",
+      "realite": "Columbia, le module de commande d'Apollo 11.",
+      "verdict": "clin-doeil",
+      "source": "https://en.wikipedia.org/wiki/From_the_Earth_to_the_Moon"
+    },
+    {
+      "id": 9,
+      "sujet": "Le tour de la Lune",
+      "roman": "Dans la suite (Autour de la Lune), le boulet fait le tour de la Lune sans s'y poser, puis revient vers la Terre.",
+      "realite": "C'est ce qu'ont fait Apollo 8 en 1968 et Artemis II en avril 2026, sans alunir.",
+      "verdict": "vu-juste",
+      "source": "https://www.nasa.gov/history/apollo-8-mission-details/"
+    },
+    {
+      "id": 10,
+      "sujet": "Le retour",
+      "roman": "Le boulet tombe dans le Pacifique et les voyageurs sont repêchés par la corvette Susquehanna.",
+      "realite": "Apollo 8, Apollo 11 et Artemis II ont tous amerri dans le Pacifique.",
+      "verdict": "vu-juste",
+      "source": "https://www.foxweather.com/earth-space/artemis-ii-capsule-splashes-down-closing-one-mission-ushering-new-era-human-spaceflight"
+    }
+  ]
+}
